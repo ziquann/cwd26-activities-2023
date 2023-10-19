@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    
+     <!-- Style CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <title>Navbar & Sidenav</title>
+</head>
+<body>
+
+    <h1 class="light-green-text text-darken-2 center">Navbar</h1>
+
+    <div class="divider"></div>
+    <div class="container">
+        <br>
+
+        <p>The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right.</p>
+    
+        <br>
+
+        <h3 class="light-green-text text-darken-2">Right Aligned Links</h3>
+        <p>To right align your navbar links, just add a right class to your <'ul'> that contains them.</p>
+
+        <nav class="brown lighten-3">
+           <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="brand-logo " target="_blank"> 
+                        <i class="fa-solid fa-fish"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Option 1</a>
+                        </li>
+                        <li>
+                            <a href="">Option 2</a>
+                        </li>
+                        <li>
+                            <a href="">Option 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div style="height: 75px;"></div>
+
+        
+        <h3 class="light-green-text text-darken-2">Left Aligned Links</h3>
+        <p>To left align your navbar links, just add a left class to your <'ul'> that contains them.</p>
+
+        <nav class="brown lighten-3">
+           <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="brand-logo right" target="_blank"> 
+                        <i class="fa-solid fa-fish"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="">Option 1</a>
+                        </li>
+                        <li>
+                            <a href="">Option 2</a>
+                        </li>
+                        <li>
+                            <a href="">Option 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div style="height: 75px;"></div>
+
+
+        <h3 class="light-green-text text-darken-2">Centering the Logo</h3>
+        <p>The logo will center itself on medium and down screens, but if you want the logo to always be centered, add the center class to your <'a class="brand-logo"'>. You will have to make sure yourself that links do not overlap if you use this.</p>
+
+        <nav class="brown lighten-3">
+           <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="brand-logo center" target="_blank"> 
+                        <i class="fa-solid fa-fish"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="">Option 1</a>
+                        </li>
+                        <li>
+                            <a href="">Option 2</a>
+                        </li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Option 3</a>
+                        </li>
+                        <li>
+                            <a href="">Option 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div style="height: 75px;"></div>
+
+        <h3 class="light-green-text text-darken-2">Active Items</h3>
+        <p>Add active class to your li tags to denote the current page.</p>
+
+        <nav class="brown lighten-3">
+            <div class="container">
+                 <div class="nav-wrapper">
+                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="brand-logo center" target="_blank"> 
+                         <i class="fa-solid fa-fish"></i>
+                     </a>
+                     <ul id="nav-mobile" class="left hide-on-med-and-down">
+                         <li>
+                             <a href="navbar-sidenav.html">Option 1</a>
+                         </li>
+                         <li>
+                             <a href="navbar-sidenav2.html">Option 2</a>
+                         </li>
+                     </ul>
+                     <ul id="nav-mobile" class="right hide-on-med-and-down">
+                         <li class="active">
+                             <a href="navbar-sidenav3.html">Option 3</a>
+                         </li>
+                         <li>
+                             <a href="navbar-sidenav4.html">Option 4</a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+         </nav>
+ 
+
+    </div>
+
+
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/f38c339a28.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

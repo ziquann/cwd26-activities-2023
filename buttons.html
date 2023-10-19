@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+    <title>Buttons</title>
+</head>
+<body>
+    <h1 class="light-green-text text-darken-2 center">Buttons</h1>
+    <div class="divider green darken-2"></div>
+    <div class="container">
+        <p>There are 3 main button types described in material design. The raised button is a standard button that signify actions and seek to give depth to a mostly flat page. The floating circular action button is meant for very important functions. Flat buttons are usually used within elements that already have depth like cards or modals.</p>
+        
+        
+        <br>
+
+        <h3 class="light-green-text text-darken-2">Raised</h3>
+        <a class="pink lighten-3 waves-effect waves-dark btn brown-text text-darken-3">Button</a>
+        <a class="waves-effect waves-light btn purple darken-3">
+            <i class="material-icons left">cloud</i>
+            Button
+        </a>
+        <a class="waves-effect waves-light btn white darken-2 brown-text text-darken-3">
+            <i class="material-icons right">cloud</i>
+            Button
+        </a>
+
+        <h3 class="light-green-text text-darken-2">Floating</h3>
+        <a class="btn-floating btn-large waves-effect waves-dark white darken-4">
+            <i class="material-icons grey-text text-darken-4">add</i>
+        </a>
+
+        <div style="height: 100px;"></div>
+
+        <p class="flow-text">Floating Action Button</p>
+        <p>See the documentation on <a href="https://materializecss.com/floating-action-button.html">this page</a></p>
+
+
+        <div style="height: 75px;"></div>
+
+        <h3 class="light-green-text text-darken-2">Flat</h3>
+        <p>Flat buttons are used to reduce excessive layering. For example, flat buttons are usually for actions within a card or modal so there aren't too many overlapping shadows.</p>
+
+        <a class="waves-effect waves-green btn-flat">Test Button</a>
+
+        <h3 class="light-green-text text-darken-2">Submit Button</h3>
+        <p>When you use a button to submit a form, instead of using a input tag, use a button tag with a type submit</p>
+
+        <div style="height :75px;"></div>
+        <button class="btn-flat waves-effect waves-green" type="submit" name="action">
+            Submit
+            <i class="material-icons right">send</i>
+        </button>
+
+        <div style="height: 75px;"></div>
+
+        <h3 class="light-green-text text-darken-2">Large</h3>
+        <p>This button has a larger height for buttons that need more attention.</p>
+        <a class="btn-large waves-effect waves-purple white green-text text-darken-2">Button</a>
+        <a class="btn-large waves-effect waves-blue white green-text text-darken-2">
+            <i class="material-icons left">cloud</i> 
+            Button
+        </a>
+        <a class="btn-large waves-effect waves-cyan white green-text text-darken-2">
+            <i class="material-icons right">cloud</i> 
+            Button
+        </a>
+
+        <div style="height: 75px;"></div>
+
+        <h3 class="light-green-text text-darken-2">Small</h3>
+        <p>When mouse and keyboard are the primary input methods, this smaller button is useful for denser UI layouts.</p>
+
+        <a class="btn-small waves-effect waves-purple white green-text text-darken-2">Button</a>
+        <a class="btn-small waves-effect waves-blue white green-text text-darken-2">
+            <i class="material-icons left">cloud</i> 
+            Buttons
+        </a>
+        <a class="btn-small waves-effect waves-cyan white green-text text-darken-2">
+            <i class="material-icons right">cloud</i> 
+            Button
+        </a>
+
+        <div style="height: 75px;"></div>
+
+        <h3 class="light-green-text text-darken-2">Disabled</h3>
+        <p>This style can be applied to all button types</p>
+
+        <a href="" class="btn-large disabled">Button</a>
+        <a href="" class="btn-small disabled">Button</a>
+        <a href="" class="btn-flat disabled">Button</a>
+        <a href="" class="btn-floating disabled"><i class="material-icons">add</i></a>
+
+        <div style="height: 125px;"></div>
+
+
+    </div>
+
+    <h1 class="light-green-text text-darken-2 center ">Floating Action Button</h1>
+
+    <div class="divider green darken-2"></div>
+
+    <div class="container">
+        <div style="height: 75px;"></div>
+
+        <p>If you want a fixed floating action button, you can add multiple actions that will appear on hover. Our demo is in the bottom righthand corner of the page.</p>
+        
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large green">
+                <i class="large material-icons">mode_edit</i>
+            </a>
+            <ul>
+                <li>
+                    <a class="btn-floating cyan"><i class="material-icons">filter_1</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="btn-floating blue"><i class="material-icons">filter_2</i></a>
+                </li>
+                <li>
+                    <a class="btn-floating purple"><i class="material-icons">filter_3</i></a>
+                </li>
+                <li>
+                    <a class="btn-floating pink"><i class="material-icons">filter_4</i></a>
+                </li>
+
+            </ul>
+        </div>
+
+
+        
+        </div>
+        
+    </div>
+    
+
+
+ 
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
+    <!-- FAB Init -->
+    <script>
+        $(document).ready(function() {
+            $('.fixed-action-btn').floatingActionButton();
+        })
+    </script>
+
+    
+</body>
+</html>

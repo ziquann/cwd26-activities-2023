@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    
+     <!-- Style CSS -->
+        <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <title>Navbar & Sidenav</title>
+</head>
+<body>
+
+    <h1 class="light-green-text text-darken-2 center">Navbar</h1>
+
+    <div class="divider"></div>
+    <div class="container">
+        <br>
+
+        <p>The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right.</p>
+    
+        <br>
+
+        <h3 class="light-green-text text-darken-2">Right Aligned Links</h3>
+        <p>To right align your navbar links, just add a right class to your <'ul'> that contains them.</p>
+
+        <nav class="brown lighten-3">
+           <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="brand-logo " target="_blank"> 
+                        <i class="fa-solid fa-fish"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Option 1</a>
+                        </li>
+                        <li>
+                            <a href="">Option 2</a>
+                        </li>
+                        <li>
+                            <a href="">Option 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div style="height: 75px;"></div>
+
+        
+        <h3 class="light-green-text text-darken-2">Left Aligned Links</h3>
+        <p>To left align your navbar links, just add a left class to your <'ul'> that contains them.</p>
+
+        <nav class="brown lighten-3">
+           <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="brand-logo right" target="_blank"> 
+                        <i class="fa-solid fa-fish"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="">Option 1</a>
+                        </li>
+                        <li>
+                            <a href="">Option 2</a>
+                        </li>
+                        <li>
+                            <a href="">Option 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div style="height: 75px;"></div>
+
+
+        <h3 class="light-green-text text-darken-2">Centering the Logo</h3>
+        <p>The logo will center itself on medium and down screens, but if you want the logo to always be centered, add the center class to your <'a class="brand-logo"'>. You will have to make sure yourself that links do not overlap if you use this.</p>
+
+        <nav class="brown lighten-3">
+           <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="brand-logo center" target="_blank"> 
+                        <i class="fa-solid fa-fish"></i>
+                    </a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="">Option 1</a>
+                        </li>
+                        <li>
+                            <a href="">Option 2</a>
+                        </li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Option 3</a>
+                        </li>
+                        <li>
+                            <a href="">Option 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div style="height: 75px;"></div>
+
+        <h3 class="light-green-text text-darken-2">Active Items</h3>
+        <p>Add active class to your li tags to denote the current page.</p>
+
+        <nav class="brown lighten-3">
+            <div class="container">
+                 <div class="nav-wrapper">
+                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="brand-logo center" target="_blank"> 
+                         <i class="fa-solid fa-fish"></i>
+                     </a>
+                     <ul id="nav-mobile" class="left hide-on-med-and-down">
+                         <li class="active">
+                             <a href="">Option 1</a>
+                         </li>
+                         <li>
+                             <a href="navbar-sidenav2.html">Option 2</a>
+                         </li>
+                     </ul>
+                     <ul id="nav-mobile" class="right hide-on-med-and-down">
+                         <li>
+                             <a href="navbar-sidenav3.html">Option 3</a>
+                         </li>
+                         <li>
+                             <a href="navbar-sidenav4.html">Option 4</a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+         </nav>
+ 
+         <div style="height: 75px;"></div>
+
+         <h3 class="light-green-text text-darken-2">Extended Navbar with Tabs</h3>
+         <p>To add extended components to the navbar, add the class nav-extended to the outer nav tag. This will allow your navbar height to be variable. Then you can just include a tabs component inside the nav-wrapper.</p>
+
+         <nav class="brown nav-extended">
+            <div class="container">
+                 <div class="nav-wrapper">
+                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="brand-logo" target="_blank"> 
+                         <i class="fa-solid fa-fish"></i>
+                     </a>
+                     <a href="" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="fa-solid fa-bars"></i>
+                     </a>
+                     <ul id="nav-mobile" class="right hide-on-med-and-down">
+                         <li class="active">
+                             <a href="">Option 1</a>
+                         </li>
+                         <li>
+                             <a href="navbar-sidenav2.html">Option 2</a>
+                         </li>
+                         <li>
+                             <a href="navbar-sidenav3.html">Option 3</a>
+                         </li>
+                         <li>
+                             <a href="navbar-sidenav4.html">Option 4</a>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="nav-content">
+                    <ul class="tabs tabs-transparent">
+                        <li class="tab">
+                            <a href="#tab1">Tab 1</a>
+                        </li>
+                        <li class="tab">
+                            <a href="#tab2">Tab 2</a>
+                        </li>
+                        <li class="tab">
+                            <a href="#tab3">Tab 3</a>
+                        </li>
+                    </ul>
+                 </div>
+             </div>
+         </nav>
+
+         <!-- Tabs Structure -->
+         <div class="row">
+            <div class="col s12" id="tab1">
+                <div class="card">
+                    <div class="card-image"><img src="pineapple.avif" alt="" class="responsive-img"></div>
+                </div>
+            </div>
+            <div class="col s12" id="tab2">
+                <div class="card">
+                    <div class="card-image"><img src="plant.avif" alt="" class="responsive-img"></div>
+                </div>
+            </div>
+            <div class="col s12" id="tab3">
+                <div class="card">
+                    <div class="card-image"><img src="glass-water.avif" alt="" class="responsive-img"></div>
+                </div>
+            </div>
+         </div>
+
+
+
+         <!-- Side Nav Structure -->
+
+         <ul class="sidenav" id="mobile-demo">
+            <li class="center brown-text darken-text-4">
+                <h5><i class="fa-solid fa-fish"></i></h5>
+            </li>
+            <div class="divider brown"></div>
+            <li>
+                <a href="center">Option 1</a>
+            </li>
+            <li>
+                <a href="center">Option 2</a>
+            </li>
+            <li>
+                <a href="center">Option 3</a>
+            </li>
+            <li>
+                <a href="center">Option 4</a>
+            </li>
+         </ul>
+
+
+         <div style="height: 75px;"></div>
+
+
+         <h3 class="light-green-text text-darken-2">Navbar Dropdown Menu</h3>
+        <p>To add a navbar dropdown menu, add the ul dropdown structure into the page. Then, add an element to trigger the dropdown menu. Make sure to supply the id of the dropdown structure to the data-target attribute of the dropdown trigger.</p>
+
+        <nav class="brown lighten-3">
+           <div class="container">
+                <!-- Dropdown Structure -->
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="">dp opt 1</a></li>
+                    <li><a href="">dp opt 2</a></li>
+                    <li class="divider"></li>
+                    <li><a href="">dp opt 3</a></li>
+                </ul>
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="brand-logo left" target="_blank"> 
+                        <i class="fa-solid fa-fish"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Option 1</a>
+                        </li>
+                        <li>
+                            <a href="">Option 2</a>
+                        </li>
+                        <li>
+                            <a href="">Option 3</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-trigger" data-target="dropdown1">
+                                Dropdown  
+                                <i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div style="height: 500px;"></div>
+
+    </div>
+
+
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/f38c339a28.js" crossorigin="anonymous"></script>
+    
+    
+    <!-- Tabs Function -->
+    <script>
+        $(document).ready(function() {
+            $('.tabs').tabs();
+        })
+    </script>
+    <!-- Side Nav -->
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        })
+    </script>
+
+    <!-- Dropdown Init -->
+    <script>
+        $(document).ready(function() {
+            $('.dropdown-trigger').dropdown();
+        })
+    </script>
+    
+</body>
+</html>
